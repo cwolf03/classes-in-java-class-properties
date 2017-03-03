@@ -4,6 +4,7 @@
  * variables defined in the body of a class.
  */
 public class Planet {
+    String name = "Neptune";
 
     // todo: create a property named "name" that can hold a planet's name. EG: mercury
 
@@ -14,9 +15,9 @@ public class Planet {
         EG: Mercury's distance from the sun is 0.4 AU.
      */
     // todo: create a property named "distanceFromSun" that holds a planet's distance from the sun in Astronomical Units.
-
+    double distanceFromSun;
     // todo: create a property "satellites" that holds the number of moons a planet has. EG: Mercury has 0 satellites
-
+    int satellites;
     // todo: create a property "supportsLife" that indicates whether or not a planet supports life. EG: Mercury does not support life.
-
+    boolean supportsLife;
 }
